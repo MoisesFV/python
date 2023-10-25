@@ -35,6 +35,7 @@ letras_usadas = ''
 
 while True:
     letra = input('Digite uma letra: ')
+    letra = letra.lower()
     #Caso não seja caractere do alfabeto
     if not letra.isalpha():
         print('Letra inválida')
