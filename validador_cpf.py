@@ -12,6 +12,9 @@ if not cpf_entrada.isdigit():
 #testa o tamanho do cpf(11 dígitos)
 if cpf_entrada.isdigit() and len(cpf_entrada) < 11 or len(cpf_entrada) > 11:
     print(f'São 11 dígitos, você digitou {len(cpf_entrada)} dígitos')
+#Invalida números repetidos
+if cpf_entrada.isdigit() and cpf_entrada[0]*11 == cpf_entrada:
+    print('Os números são todos iguais, CPF inválido')
 else:
     #insere os números na lista
     for i in range(11):
