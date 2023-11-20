@@ -16,6 +16,6 @@ new_pessoas = [
     pessoa for pessoa in pessoas
     if pessoa['idade'] < 30
 ]
-new_pessoas = sorted(new_pessoas, key=lambda i : i['idade'])
-
+# new_pessoas = sorted(new_pessoas, key=lambda i : i['idade'])
+new_pessoas.sort(key=lambda i : i['idade'])
 print(new_pessoas)
