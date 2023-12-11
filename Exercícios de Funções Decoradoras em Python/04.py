@@ -27,8 +27,3 @@ def teste():
 
 teste()
 print(soma(5,2))
-
-
-
-
-        

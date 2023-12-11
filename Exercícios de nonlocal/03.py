@@ -19,7 +19,3 @@ print(sequencia())
 print(sequencia())
 print(sequencia())
 print(sequencia())
-
-
-
-    

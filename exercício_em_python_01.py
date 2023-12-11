@@ -83,9 +83,3 @@ while True:
         continue
 os.system('cls')
 print(f'Jogo encerrado, a palavra era: {palavra.upper()}, total de tentativas = {tentativas}')
-
-
-
-
-    
-

@@ -39,6 +39,4 @@ print(novos_produtos)
 novos_produtos2 = sorted(novos_produtos2, reverse=True, key=lambda d: d['preco'])
 print(novos_produtos2)
 
-
 print(produtos)
-    

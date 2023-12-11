@@ -35,14 +35,3 @@ for nome, dados in new_lista:
     print(nome)
     for dado in dados:
         print(dado)
- 
-
-
-
-
-
-
-
-
-
-

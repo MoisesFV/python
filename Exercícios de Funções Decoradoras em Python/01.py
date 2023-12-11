@@ -21,7 +21,3 @@ def soma(a,b):
     return(a+b)   
 
 soma(6,3)
-
-
-
-

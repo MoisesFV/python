@@ -16,4 +16,3 @@ print(progressao())
 print(progressao())
 print(progressao())
 print(progressao())
-

@@ -14,4 +14,3 @@ for key, number in paridade:
         print('Par:', list(number))
     else:
         print('ímpar:',list(number))
-

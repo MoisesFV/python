@@ -19,4 +19,3 @@ new_palavras = sorted(new_palavras, key=lambda n : n['nome'])
 
 
 print(new_palavras)
-

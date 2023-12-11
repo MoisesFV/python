@@ -19,5 +19,3 @@ def contador(a):
         print(i)
 
 contador(10)
-
-

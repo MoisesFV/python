@@ -12,10 +12,3 @@ def criar_multiplicador(x):
 multiplica_por_dois = criar_multiplicador(2)
 
 print(multiplica_por_dois(8))
-
-
-
-
-
-
-

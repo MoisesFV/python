@@ -13,4 +13,3 @@ new_estudantes = sorted(estudantes, key=lambda x : x[1])
 
 for chave, estudantes in groupby(new_estudantes, key=lambda x : x[1]):
     print(chave, list(estudantes))
-
